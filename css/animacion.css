@@ -1,0 +1,34 @@
+.animado{
+    width: 200px;
+    height: 150px;
+    background-color: lightyellow;
+    position: relative;
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes mover {
+    0%{
+    left: 0px;
+    top:0px;}
+    25%{
+    left:600px;
+    top:0px;
+}
+    50%{
+    top:600px;
+    left: 600px;
+    background-color: violet;
+    }
+    75%{
+    left: 0px;
+    top: 600px;
+    }
+    100%{
+    left: 0px;
+    top: 0px;
+    }
+
+}

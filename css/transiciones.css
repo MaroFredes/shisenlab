@@ -1,0 +1,11 @@
+.transformacion{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: #dbec40;
+    transition: transform 2s;
+}
+
+.transformacion:hover{
+    transform: scale(1.5);
+}
