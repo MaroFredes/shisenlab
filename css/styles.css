@@ -103,9 +103,10 @@ ul.acorh li a:hover {
 }
 
 body {
-    background-color: rgb(253, 251, 255);
+    background-color: rgb(255, 255, 255);
     font-family: caviar;
     width: 70%;
+    background-color: #ffffff;
 }
 
 .contenedor{
@@ -113,7 +114,7 @@ body {
     max-width: 1000px;
     margin:0 auto;
     box-sizing: border-box;
-
+    background-color: #ffffff;
 }
 
 .encabezadocentro {
@@ -236,10 +237,10 @@ input#search-bar{
 
 @media (min-width: 481px) and (max-width: 767px) {
     body{
-        background-color: red;
+        background-color: #ffffff;
     }
     .contenedor{
-        background-color: #dbec40;
+        background-color: #ffffff;
     }
 }
 
