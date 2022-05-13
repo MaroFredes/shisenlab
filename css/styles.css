@@ -96,7 +96,7 @@ ul.acorh li a:hover {
 }
 
 
-/*-----BODY------*/
+/*-----MAIN/BODY------*/
 @font-face {
     font-family: caviar;
     src: url("../fonts/CaviarDreams.ttf");
@@ -109,7 +109,7 @@ body {
     background-color: #ffffff;
 }
 
-.contenedor{
+.container{
     width: 80%;
     max-width: 1000px;
     margin:0 auto;
