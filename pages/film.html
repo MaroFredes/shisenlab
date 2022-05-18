@@ -2,14 +2,21 @@
 <html>
     <head lang="es">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css">
-            <title>Film</title>
+            <title>film</title>
         <body>
             <div class="container">
             <header class="fondoheader">
                 <div class="titulo">
                     <img src="../images/encabezado/Shisen Lab.jpg" alt="tituloshisenlab">
                 </div>
+                <div class="search">
+                    <form class="search-container">
+                        <input type="text" id="search-bar" placeholder="buscar">
+                        <a href="#"><img class="search-icon" src="/images/search-icon.png"></a>
+                    </form>
+                    </div>
                     <nav>
                     <ul class="acorh">
                         <li id="inicio"><a href="../index.html">inicio</a>
@@ -50,26 +57,45 @@
                     </article>
                     </section>
                 </div>
-
-                <div class="grid-contenedor">
-                    <div>
-                    <img src="../images/35mm/film35mm/film35.1.jpg" alt="kodak400">
-                    <p class="grid-parrafo">kodak 400</p>
+        <!-- inicio section grid-contenedor -->
+        <section class="row">
+            <div class="grid-contenedor">
+                
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/film35mm/film35.1.jpg" alt="film 35mm kodakcolor 400">                    <div class="capa">
+                        <h3>kodak color 400 35mm</h3>
                     </div>
-                <div>
-                    <img src="../images/35mm/film35mm/film35.2.jpg" alt="kodak400tx">
-                    <p class="grid-parrafo">kodak 400TX </p>
-                </div>
-                <div>
-                    <img src="../images/35mm/film35mm/film35.4.jpg" alt="fujivelvia">
-                    <p class="grid-parrafo">fujifilm color 200</p>
-                </div>
-                <div>
-                    <img src="../images/35mm/filminstantaneo/images.jpg" alt="instaxmini">
-                    <p class="grid-parrafo">instax mini</p>
-                </div>
-                </div>
+                </figure>
+                <p class="grid-parrafo">Kodak 400</p>
             </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/film35mm/film35.2.jpg" alt="film 35mm kodak 400tx">                    <div class="capa">
+                        <h3>kodak 400 tx blanco y negro</h3>
+                    </div>
+                </figure>
+                <p class="grid-parrafo">Kodak 400TX B&N</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/film35mm/film35.4.jpg" alt="film 35mm fujifilm velvia color">                    <div class="capa">
+                        <h3>fujifilm velvia 200</h3>
+                    </div>
+            </figure>
+                <p class="grid-parrafo">Fujifilm Velvia 200</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/filminstantaneo/images.jpg" alt="film instantaneo instaxmini">                <div class="capa">
+                    <h3>Intaxmini fujifilm</h3>
+                </div>
+            </figure>
+                <p class="grid-parrafo">Intaxmini fujifilm</p>
+            </div>
+            </div>
+            </section>
+            <!-- fin section grid-contenedor -->
                 <div class="novypromo"><p> Novedades y Promos</p>
                     <form action="">
                     <label for="email">escribinos tu email</label><br>

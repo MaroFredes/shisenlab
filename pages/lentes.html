@@ -4,12 +4,20 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE= edge">
         <link rel="stylesheet" href="../css/styles.css">
-        <title>Lentes</title>
+        <link rel="stylesheet" href="css/bootstrap.bundle.min.js">
+        <title>lentes</title>
     </head>
     <body>
         <div class="container">
         <header class="fondoheader">
-            <img src="../images/encabezado/Shisen Lab.jpg" alt="tituloshisenlab">            <nav>
+            <img src="../images/encabezado/Shisen Lab.jpg" alt="tituloshisenlab">
+            <div class="search">
+                <form class="search-container">
+                    <input type="text" id="search-bar" placeholder="buscar">
+                    <a href="#"><img class="search-icon" src="/images/search-icon.png"></a>
+                </form>
+                </div>
+            <nav>
                 <ul class="acorh">
                     <li id="inicio"><a href="../index.html">inicio</a>
                     <li id="camaras"><a href="camaras.html">camaras</a>
@@ -41,25 +49,45 @@
             </nav>
         </header>
         <h1 class="margen-lentes">lentes</h1>
+        <!-- inicio section grid-contenedor -->
+        <section class="row">
             <div class="grid-contenedor">
-            <div>
-                <img src="../images/35mm/lentes/lente7.jpg" alt="">
-                <p class="grid-parrafo">nikkor 50mm</p>
+                
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/lentes/lente7.jpg" alt="lente nikkor 50mm">                    <div class="capa">
+                        <h3>lente nikkor 50mm</h3>
+                    </div>
+                </figure>
+                <p class="grid-parrafo">Lente Nikkor 50mm</p>
             </div>
-            <div>
-                <img src="../images/35mm/lentes/lente6.jpg" alt="nikon50mm">
-                <p class="grid-parrafo">nikon 50mm</p>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/lentes/lente6.jpg" alt="lente nikon 50mm">                    <div class="capa">
+                        <h3>lente nikon 50mm</h3>
+                    </div>
+                </figure>
+                <p class="grid-parrafo">Lente Nikon 50mm</p>
             </div>
-            <div>
-                <img src="../images/35mm/lentes/lente3.jpg" alt="canon50mm">
-                <p class="grid-parrafo">cannon 50mm</p>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/lentes/lente3.jpg" alt="lente canon 50mm">                    <div class="capa">
+                        <h3>lente canon 50mm</h3>
+                    </div>
+            </figure>
+                <p class="grid-parrafo">Lente Canon 50mm</p>
             </div>
-            <div>
-                <img src="../images/35mm/lentes/lente9.jpg" alt="">
-                <p class="grid-parrafo">petzval 80.5</p>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/lentes/lente9.jpg" alt="lente petzval 80.5">                <div class="capa">
+                    <h3>lente petzval 80.5</h3>
+                </div>
+            </figure>
+                <p class="grid-parrafo">Lente Petzval 80.5</p>
             </div>
             </div>
-        </div>
+            </section>
+            <!-- fin section grid-contenedor -->
             <div class="novypromo"><p> Novedades y Promos</p>
                 <form action="">
                 <label for="email">escribinos tu email</label><br>

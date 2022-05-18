@@ -8,3 +8,134 @@
     background-color: #ffffff;
 } 
 }
+/*-----OTRAS PANTALLAS------*/
+@media (min-width: 576px) {
+    .container, .container-sm {
+    max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+    max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+    }
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+(min-device-width: 800px) 
+and (max-device-width: 1280px) {
+    body{
+        background-color: #dbec40;
+        width: 100;
+    }
+
+}
+
+/* Portrait */
+@media 
+(max-device-width: 800px) 
+and (orientation: portrait) { 
+    body{
+        background-color: #dbec40;
+        width: 100;
+    }
+}
+
+/* Landscape */
+@media 
+(max-device-width: 1280px) 
+and (orientation: landscape) { 
+    body{
+        background-color: #dbec40;
+        width: 100;
+    }
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+(min-device-width: 800px) 
+and (max-device-width: 1280px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+        background-color: #dbec40;
+        width: 100;
+    }
+}
+
+/* Portrait */
+@media 
+(max-device-width: 800px) 
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) { 
+    body{
+        background-color: #dbec40;
+        width: 100;
+    }
+}
+
+/* Landscape */
+@media 
+(max-device-width: 1280px) 
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) { 
+    body{
+        background-color: #ffffff;
+        width: 100;
+    }
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+    body{
+        background-color: #ffffff;
+        width: 100%;
+    }
+    .row{background-color: white; 
+
+    }    
+    }
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+    body{
+        background-color: #ffffff;
+        width: 100%;
+    }
+}
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+    body{
+        background-color: #ffffff;
+    }
+}

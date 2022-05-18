@@ -2,13 +2,21 @@
 <html>
     <head lang="es">
         <meta charset="UTF-8">
-        <title>servicios</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="css/bootstrap.bundle.min.js">
+        <title>servicios</title>
     </head>
         <body>
             <div class="container">
             <header class="fondoheader">
                 <img src="../images/encabezado/Shisen Lab.jpg" alt="tituloshisenlab">       
+                <div class="search">
+                    <form class="search-container">
+                        <input type="text" id="search-bar" placeholder="buscar">
+                        <a href="#"><img class="search-icon" src="/images/search-icon.png"></a>
+                    </form>
+                    </div>
                 <nav>
                     <ul class="acorh">
                         <li id="inicio"><a href="../index.html">inicio</a>
@@ -49,23 +57,38 @@
                     <li><a href="">Revelados + Digitalizacion</a></li>
                 </article>
                 </section>
-                <div class="grid-contenedor">
-                    <div>
-                        <img src="../images/35mm/reveladoydigit1.png" alt="reveladoydigitalizacion">
-                        <p class="grid-parrafo">revelado y digitalizacion</p>
+        <!-- inicio section grid-contenedor -->
+        <section class="row">
+            <div class="grid-contenedor">
+                
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/reveladoydigit1.png" alt="revelado y digitalizacion">                    <div class="capa">
+                        <h3>revelado y digitalizado</h3>
                     </div>
-                    <div>
-                        <img src="../images/35mm/solodigit.png" alt="solodigitalizado">
-                        <p class="grid-parrafo">digitalizacion</p>
-                    </div>
-                    <div>
-                        <img src="../images/35mm/1solorev.png" alt="solorevelado">
-                        <p class="grid-parrafo">revelado</p>
-                    </div>
-                    </div>
+                </figure>
+                <p class="grid-parrafo">Revelado y Digitalizado</p>
             </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/solodigit.png" alt="solo digitalizado">                    <div class="capa">
+                        <h3>digitalizado</h3>
+                    </div>
+                </figure>
+                <p class="grid-parrafo">Digitalizado</p>
             </div>
-        </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <figure>
+                    <img src="../images/35mm/1solorev.png" alt="solo revelado">                    <div class="capa">
+                        <h3>revelado</h3>
+                    </div>
+            </figure>
+                <p class="grid-parrafo">Revelado</p>
+            </div>
+
+            </div>
+            </section>
+            <!-- fin section grid-contenedor -->
             <div class="novypromo"><p> Novedades y Promos</p>
                 <form action="">
                 <label for="email">escribinos tu email</label><br>

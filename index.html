@@ -10,15 +10,21 @@
         <title>Shisen Lab 視線</title>
     </head>
     <body>
+        <!-- inicio header (logo + nav) -->
+        <!-- inicio contenedor padre  -->
         <div class="container">
         <header class="fondoheader">
                 <img class="titulo" src="./images/encabezado/Shisen Lab.jpg" alt="tituloshisenlab">
                 <div class="search">
                 <form class="search-container">
                     <input type="text" id="search-bar" placeholder="buscar">
-                    <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                    <a href="#"><img class="search-icon" src="./images/search-icon.png"></a>
                 </form>
                 </div>
+                <!-- fin contenedor padre -->
+                <!-- fin header (logo + nav) -->
+                
+                <!-- inicio main -->
         <main class="row">
                 <nav class="col-lg-9 col-md-8 col-sm-12">
                 <ul class="acorh">
@@ -49,30 +55,55 @@
                 </ul>
             </nav>
         </header>
+        <!-- fin header  -->
+
+        <!-- inicio sections -->
         <section>
         <h1 class="noveyofer">novedades y ofertas</h1>
         </section>
+        <!-- inicio section grid-contenedor -->
         <section class="row">
         <div class="grid-contenedor">
             
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <img src="./images/35mm/lentes/diana-mini_twilight-blue_front-tienda.png" alt="diana mini twilightblue">
-            <p class="grid-parrafo">diana mini</p>
+            <figure>
+                <img src="./images/35mm/lentes/diana-mini_twilight-blue_front-tienda.png" alt="diana mini twilightblue">
+                <div class="capa">
+                    <h3>diana mini formato 120mm</h3>
+                </div>
+            </figure>
+            <p class="grid-parrafo">Diana</p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <img src="./images/35mm/digitalizacion/solodigit.jpg" alt="digitalizado">
-            <p class="grid-parrafo">digitalizacion</p>
+            <figure>
+                <img src="./images/35mm/digitalizacion/solodigit.jpg" alt="digitalizado">
+                <div class="capa">
+                    <h3>digitalizado</h3>
+                </div>
+            </figure>
+            <p class="grid-parrafo">Digitalizado</p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <img src="images/35mm/camaras35mm/Pentax-sm2.png" alt="Pentax-sm2">
+            <figure>
+                <img src="images/35mm/camaras35mm/Pentax-sm2.png" alt="Pentax-sm2">
+                <div class="capa">
+                    <h3>pentax-sm2 formato 35mm</h3>
+                </div>
+        </figure>
             <p class="grid-parrafo">Pentax-sm2</p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <img src="images/35mm/110mm/110mm1.png" alt="lomo">
+            <figure>
+            <img src="images/35mm/110mm/110mm1.png" alt="camara estilo lomography">
+            <div class="capa">
+                <h3>camara estilo lomography</h3>
+            </div>
+        </figure>
             <p class="grid-parrafo">lomography</p>
         </div>
         </div>
         </section>
+        <!-- fin section grid-contenedor -->
         <section>
         <div class="novypromo"><p> Novedades y Promos</p>
             <form action="">
@@ -84,6 +115,9 @@
         Enviar
         </a>
         </section>
+        <!-- fin sections -->
+
+        <!-- inicio footer -->
         <footer class="footer"> 
             <div>
                 <ul>
@@ -105,9 +139,11 @@
             <p>Información Fiscal</p>    
         </div>
         </footer>
-        
+        <!-- fin footer -->
         </main>
+        <!-- fin main -->
     </div>
+    <!-- fin contenedor padre  -->
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

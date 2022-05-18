@@ -1,7 +1,6 @@
 {
   "name": "shisenlab",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -294,7 +293,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "repository": {
     "type": "git",
@@ -305,5 +303,6 @@
   "bugs": {
     "url": "https://github.com/MaroFredes/shisenlab/issues"
   },
-  "homepage": "https://github.com/MaroFredes/shisenlab#readme"
+  "homepage": "https://github.com/MaroFredes/shisenlab#readme",
+  "description": ""
 }
