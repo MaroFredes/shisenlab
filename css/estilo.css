@@ -191,14 +191,6 @@ body {
     box-sizing: border-box;
     margin-bottom: 50px; }
 
-/*------------MEDIA QUERIES-----------*/
-/*------------Dispositivos Mobiles---------*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background-color: #ffffff; }
-  .contenedor {
-    background-color: #ffffff; } }
-
 /*------FOOTER------*/
 .footer {
   background: #b37ad8;
